@@ -11,7 +11,7 @@ cloude web
 .main{
     background-color: aqua;
    
-    height: 1500px;
+    height: 1200px;
 }
 .head1{
     background-color: cadetblue;
@@ -23,14 +23,7 @@ cloude web
     width: 99%;
     height: 10%;
     padding-top: 10px;
-}
-
-.head1 marquee{
-    background-color: rgb(41, 39, 39);
-    
-    color: white;
-    height: 80px;
-}
+} 
 .head1 h1{
     text-align: center;
     color: white;
@@ -41,27 +34,23 @@ cloude web
 }
 .body1{
     background-color: chartreuse;
-    width: 200px;
+    width: 250px;
     height: 800px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
-    background-image: url(photo7.jpg);
-    background-position: center;
-    background-size: cover;
+
 
 
 }
 .body2{
     background-color: chocolate;
-    width: 900px;
+    width: 700px;
     height: 800px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
-    background-image: url(ter.gif);
-    background-position: center;
-    background-size: cover;
+
 
 
 
@@ -70,11 +59,11 @@ cloude web
 .body3{
     background-color: rgb(241, 208, 21);
     height: 800px;
-    width: 200px;
+    width: 350px;
     float:left;
     margin-top: 10px;
     margin-left: 10px;
-    background-image: url(photo1.png);
+    background-image: url(p.jpg);
     background-position: center;
     background-size: cover;
 
@@ -85,7 +74,10 @@ cloude web
     height: 300px;
     float: left;
     margin-top:10px;
-
+    background-image: url(photo4.jpg);
+    background-position: center;
+    background-size: cover;
+    
 }
 </style>
 
@@ -101,17 +93,44 @@ cloude web
     <h1>
         TOP MOVIES
     </h1><br>
-    <marquee scrollamount=20>
-        <h2>Have mor fun here by getting mor updates on hollywood movies and more</h2><br>
-        <img src="shoot.gif" width="130px" height="100px"> 
-        
-    </marquee>
+    
 </div>
 
-<div class="body1"></div>
+<div class="body1"><p>before to enter in system you have to ollow below intructions</p><br>
+<form>
+    <p1>choose your country</p1><br>
+    <input list="countries" name="name0"><br>
+    <datalist id="countries">
+        <option value="rwanda">
+         <option value="burubndi">
+         <option value="tanzania">
+         <option value="uganda">
+         </datalist>
+		 fist name<br><input type="text"placeholder="firstname"name="name4">
+	          last name<br><input type="text"placeholder="last name"name="name5">
+              <p3>select your gender</p3><br>
+			 male<input type="radio" name="name7">
+			 female<input type="radio" name="name7"> <br>
+		 <p2> select your age</p2><br>
+		 <input list="years" name="name6"><br>
+    <datalist id="years">
+        <option value="01-17">
+         <option value="18+">
+		 </datalist> 
+		 select your intresting  movie<br>
+		 fighting movies<input type="checkbox"name="name8">
+             romance movie<input type="checkbox"name="name9">
+			 traditional movie<input type="checkbox"name="name10"> <br>
+    user name<input type="text"placeholder="username"name="name1"><br>
+    password<input type="password"placeholder="password"name2="name2"><br> 
+	<input type="submit" value="login"> 
+     </form> 
+</div>
 
 
 <div class="body2"></div>
+
+
 
 <div class="body3"></div>
 
